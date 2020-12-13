@@ -1,0 +1,183 @@
+/* Body background */
+body {
+  background-image: url('../images/covid-19 virus.jpg');
+  background-attachment: fixed;
+
+}
+
+/* H1 properties*/
+h1 {
+	text-align: center;
+	background-color: black;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	border: 3px solid black; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+    margin-bottom: 20px; 
+}
+
+
+/* Navigation Links to FB and YouTube with hover*/
+#navlink {
+  float: right;
+}
+
+#navlink li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 0;
+}
+
+#navlink li, #navlink a {
+  height: 59.5px;
+  display: block;
+}
+
+#dohf {
+  left: 1000px;
+  width: 79.5px;
+  background: url('../images/links.png') -0px -0px;
+}
+
+#dohy {
+  left: 1085px;
+  width: 79.5px;
+  background: url('../images/links.png') -0px -60px;
+}
+
+#dostf {
+  left: 1170px;
+  width: 79.5px;
+  background: url('../images/links.png') -0px -120px;
+}
+
+#dohf a:hover {
+  background: url('../images/links.png') -80px -0px;
+}
+
+#dohy a:hover {
+  background: url('../images/links.png') -80px -60px;
+}
+
+#dostf a:hover {
+  background: url('../images/links.png') -80px -120px;
+}	
+
+
+/* Navigation links to pharmaceutical sites*/
+#navpharm {
+  position: relative;
+}
+
+#navpharm li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+}
+
+#navpharm li, #navpharm a {
+  height: 92px;
+  display: block;
+}
+
+#pfizer {
+  left: 100px;
+  width: 174px;
+  background: url('../images/pharma.png') -0px -0px;
+}
+
+#aztra {
+  left: 324px;
+  width: 174px;
+  background: url('../images/pharma.png') -0px -92px;
+}
+
+#moderna {
+  left: 548px;
+  width: 174px;
+  background: url('../images/pharma.png') -0px -184px;
+}
+
+#pfizer a:hover {
+  background: url('../images/pharma.png') -174px -0px;
+}
+
+#aztra a:hover {
+  background: url('../images/pharma.png') -174px -92px;
+}
+
+#moderna a:hover {
+  background: url('../images/pharma.png') -174px -184px;
+}
+
+/* Navigation bar container */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Links inside the navigation bar */
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover {
+  background-color: red;
+}
+
+/*Fixed postion of image*/
+img{
+	width: "42";
+	height: "42";
+	float: right;
+}
+
+/* box attributes*/
+.box1{
+	padding: 20px;
+	border: 3px solid black;
+	background-color: hsl(44, 19%, 67%);
+	width: 900px.
+	
+}
+
+/* paragraph attributes */
+p{
+	text-indent: 25px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	width: 900px;
+}	
+
+/* footer attributes*/
+footer {
+	padding: 20px;
+	border: 3px solid black;
+	background-color: hsl(214, 35%, 60%);
+	width: 900px.
+}
+
+footer p {
+	text-indent: 0px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	width: 1100px;	
+}
